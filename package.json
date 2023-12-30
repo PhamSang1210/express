@@ -2,10 +2,13 @@
     "name": "express",
     "version": "1.0.0",
     "main": "index.js",
+    "engines": {
+        "node": "21.x"
+    },
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "start": "node server.js"
+        "start": "node index.js"
     },
     "dependencies": {
         "express": "^4.18.2",
